@@ -9,8 +9,12 @@
   "bin": {
     "snet-locate": "./index.js"
   },
-  "author": "",
+  "author": {
+    "name": "Oskar Risberg",
+    "email": "kokarn@gmail.com"
+  },
   "license": "ISC",
+  "repository": "https://github.com/kokarn/snet-locate",
   "dependencies": {
     "chalk": "^2.3.0",
     "cli-table-redemption": "^1.0.1",
