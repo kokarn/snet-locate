@@ -1,0 +1,24 @@
+{
+  "name": "snet-locate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "snet-locate": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cli-table-redemption": "^1.0.1",
+    "got": "^8.0.1",
+    "is-url": "^1.2.2",
+    "minimist": "^1.2.0",
+    "readline-sync": "^1.4.7",
+    "timeago.js": "^3.0.2",
+    "user-home": "^2.0.0"
+  }
+}
