@@ -1,6 +1,6 @@
 {
   "name": "snet-locate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
     "got": "^8.0.1",
     "is-url": "^1.2.2",
     "minimist": "^1.2.0",
+    "normalize-strings": "^1.1.0",
     "readline-sync": "^1.4.7",
     "timeago.js": "^3.0.2",
     "user-home": "^2.0.0"

@@ -10,6 +10,7 @@ const userHome = require( 'user-home' );
 const readlineSync = require( 'readline-sync' );
 const isUrl = require( 'is-url' );
 const chalk = require( 'chalk' );
+const normalizeString = require( 'normalize-strings' );
 
 const argv = require( 'minimist' )( process.argv.slice( 2 ) );
 
@@ -26,7 +27,7 @@ const getMatchPattern = function getMatchPattern( stringToFind ) {
 };
 
 const isInString = function isInString( haystackString, needleString ) {
-    return haystackString.match( getMatchPattern( needleString ) );
+    return normalizeString( haystackString ).match( getMatchPattern( normalizeString( needleString ) ) );
 };
 
 const getSightings = function getSightings() {
